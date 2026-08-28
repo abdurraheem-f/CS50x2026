@@ -1,0 +1,30 @@
+#include <cs50.h>
+#include <stdio.h>
+int main()
+{
+    int height;
+    do
+    {
+        height = get_int ("Height: ");
+    }
+    while (height <1 || height >8);
+
+    //to print height first
+    for (int i=0; i < height; i++)
+    {
+        //to print spaces first
+        for (int j=0; j < height-i-1; j++)
+        {
+            printf(" ");
+        }
+
+        //to print hashes then
+        for (int k=0; k < i+1; k++)
+        {
+            printf("#");
+        }
+
+        //to make a new line
+        printf("\n");
+    }
+}
