@@ -1,0 +1,39 @@
+command lines interfernce CLI
+
+1- cd = change directry to zzz or if 
+cd only = back to main home or elif
+cd.. = back a step 
+
+2- cp = copy xxx.c and name it yyy.c: cp xxx.c yyy.c
+
+3- ls = list (show files list)
+
+4- mkdir = make directry (folder)
+
+5- mv = change file name fronm xxx to yyy: mv xxx.c yyy.c
+
+6- rm = remove file permenantly
+
+7- rmdir = remove directry
+
+8- pwd = print working directory (shows the exact path of the folder you are currently in)
+
+9- touch = create a new, empty file (e.g., touch newfile.c)
+
+10- clear = clear the terminal screen to remove clutter
+
+11- cat = display the entire contents of a file in the terminal (e.g., cat code.c)
+
+12- man = manual (shows the help page and options for a specific command, e.g., man ls)
+
+13- grep = search for a specific word or pattern within a file (e.g., grep "printf" file.c)
+
+14- history = show a numbered list of the commands you have previously typed
+
+15- chmod = change file permissions (often used to make a file executable)
+
+16- nano = open a simple text editor directly in the terminal (e.g., nano file.c)
+
+17- find = search for files or directories by name within your file system
+
+18- zip / unzip = compress files into a zip archive or extract them
