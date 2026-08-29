@@ -8,11 +8,13 @@ int main ()
 
 }
 void string_length (string name)
+//int string_length (string name) for return length and print it in main is good if want to use length
 {
     int length =0;
     while (name[length] != '\0')
     {
         length++;
     }
+    //return length; if we use int not void function
     printf("%i\n", length);
 }
