@@ -5,9 +5,10 @@ int main ()
 {
     string name = get_string ("Input: ");
     printf("Output: ");
-    int length = strlen(name);
+    ;
     // to avoid redoing the function as the name length wont be changed!
-    for (int i = 0; i <length; i++)
+    // add values in initializing phase but length is identified with int before i
+    for (int i =0  , length = strlen(name); i <length; i++)
     {
         printf("%c",name[i]);
     }
